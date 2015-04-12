@@ -1,0 +1,26 @@
+{
+  "name": "yuidoc-dropkick-theme",
+  "version": "0.0.1",
+  "description": "A simple YUIDoc theme for DropKick.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robdel12/yuidoc-dropkick-theme.git"
+  },
+  "keywords": [
+    "yuidoc"
+  ],
+  "author": {
+    "name": "Robert DeLuca"
+  },
+  "contributors": [
+    {
+      "name": "Robert DeLuca",
+      "email": "robertdeluca19@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/robdel12/yuidoc-dropkick-theme/issues"
+  },
+  "homepage": "http://robdel12.github.io/DropKick",
+  "license": "MIT"
+}
