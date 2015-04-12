@@ -15,10 +15,7 @@
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <h1 class="brand" style="padding: 10px 16px 10px; height: 20px; line-height: 20px; margin-left: 0;">
-        {{#if projectLogo}}
-	    <img alt="{{projectName}}" src="{{projectLogo}}" style="max-height: 65%;" title="{{projectName}}">
-        {{/if}}
-            {{projectName}}
+            <a href="http://dropkickjs.com">{{projectName}}</a>
         </h1>
 	<div class="nav">
             <li class="divider-vertical"></li>
@@ -28,9 +25,7 @@
                 </p>
             </li>
         </div>
-        <form class="navbar-form pull-right" style="line-height: 40px; height: 40px;">
-            <input style="margin-top: 0;" type="text" class="search-query" placeholder="Search for classes/modules..." data-obj='[{{#search classes allModules}}{{/search}}]'>
-        </form>
+        {{> options}}
     </div>
 </div>
 <div class="container">
@@ -39,7 +34,6 @@
 	    {{>sidebar}}
         </div>
         <div class="span9">
-            {{>options}}
             <div class="apidocs">
                 <div id="docs-main">
                     <div class="content">
