@@ -6,9 +6,10 @@
       <strong>Methods</strong>
       <ul class="ul--nested">
         {{#methods}}
-        {{#if static}}
+        {{#if private}}
+          <li class="private"><a href="#method-{{name}}"><span class="im">{{name}}</span>({{#params}}<span class="ia">{{name}}</span>{{/params}})</a></li>
         {{else}}
-        <li><a href="#method-{{name}}"><span class="im">{{name}}</span>({{#params}}<span class="ia">{{name}}</span>{{/params}})</a></li>
+          <li><a href="#method-{{name}}"><span class="im">{{name}}</span>({{#params}}<span class="ia">{{name}}</span>{{/params}})</a></li>
         {{/if}}
         {{/methods}}
       </ul>
